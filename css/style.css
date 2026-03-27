@@ -186,4 +186,70 @@ section.Mescompetences h2::after {
     
 }
 
+.Mescompetences table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #FFF;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
 
+.Mescompetences table th, .competences table td {
+    padding: 15px;
+}
+
+.Mescompetences table thead {
+    background-color: var(--violet-doux);
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.Mescompetences table tbody td {
+    /* ajouter une borbure de la 1px en bas de chaque cellule */
+    border-bottom: 1px solid var(--gris-clair);
+}
+
+.Mescompetences table tbody tr:nth-child(even) {
+    background-color: #f0f0f0
+}
+
+.Mescompetences table tbody tr {
+    transition: background-color 0.3 ease;
+}
+
+.Mescompetences table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.Mescompetences table thead th {
+    text-align: left;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: var(--violet-doux);
+    padding: 3rem 0;
+    text-align: center;
+
+}
+
+footer p {
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+footer a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3 ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--orange-vif);
+    transform: translateY(-3px)
+    
+}
